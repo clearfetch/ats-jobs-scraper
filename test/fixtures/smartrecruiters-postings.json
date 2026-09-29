@@ -1,0 +1,306 @@
+{
+ "offset": 0,
+ "limit": 2,
+ "totalFound": 4796,
+ "content": [
+  {
+   "id": "744000152399259",
+   "name": "Pflichtpraktikum in Social Media",
+   "uuid": "8390efda-0045-4ecd-93a5-b948edd00c11",
+   "jobAdId": "a4d95cd4-c061-4b8c-8da8-548f2fd95f89",
+   "defaultJobAd": true,
+   "refNumber": "REF297302D",
+   "company": {
+    "identifier": "BoschGroup",
+    "name": "Bosch Group"
+   },
+   "releasedDate": "2026-09-29T12:02:34.065Z",
+   "location": {
+    "city": "Gerlingen",
+    "region": "BW",
+    "country": "de",
+    "address": "Dieselstraße 3",
+    "postalCode": "70839",
+    "remote": false,
+    "hybrid": false,
+    "latitude": "48.8029138",
+    "longitude": "9.074808299999999",
+    "fullLocation": "Gerlingen, BW, Germany"
+   },
+   "industry": {
+    "id": "automotive",
+    "label": "Automotive"
+   },
+   "department": {},
+   "function": {
+    "id": "marketing",
+    "label": "Marketing"
+   },
+   "typeOfEmployment": {
+    "id": "permanent",
+    "label": "Full-time"
+   },
+   "experienceLevel": {
+    "id": "internship",
+    "label": "Internship"
+   },
+   "customField": [
+    {
+     "fieldId": "5abe2a4ab60a5e486a2d9b1d",
+     "fieldLabel": "Contract type",
+     "valueId": "98487475-2a49-44f5-a615-408b525b3821",
+     "valueLabel": "Limited"
+    },
+    {
+     "fieldId": "5abe28e96d8bc56863dd9746",
+     "fieldLabel": "Tariff Area",
+     "valueId": "45a4fe7c-ec96-4eda-907f-4aa0356a7704",
+     "valueLabel": "Not tariff-bound / non-tariff / SLx"
+    },
+    {
+     "fieldId": "5aca30e46d8bc56863dd98d8",
+     "fieldLabel": "Tags",
+     "valueId": "f8aadd7e-9952-41c5-af48-02debb3e9010",
+     "valueLabel": "Please enter Career Site Tags"
+    },
+    {
+     "fieldId": "586a997ee4b05fd937b86098",
+     "fieldLabel": "Legal Entity(acronym)",
+     "valueId": "de1f1b31-787f-43b1-88fd-4eb5428a9db8",
+     "valueLabel": "RB"
+    },
+    {
+     "fieldId": "6463ee88f4ba4e3063baf201",
+     "fieldLabel": "Do you want to publish on StepStone?",
+     "valueId": "5449f11a-cf85-46db-80b7-8540bb088d65",
+     "valueLabel": "No"
+    },
+    {
+     "fieldId": "586a99b5e4b0daa006ae1079",
+     "fieldLabel": "Working Location",
+     "valueId": "4c5e0a8e-1aca-4707-b641-a0641306e9a3",
+     "valueLabel": "Gerlingen - Schillerhöhe"
+    },
+    {
+     "fieldId": "5abe295a6d8bc56863dd9747",
+     "fieldLabel": "Global Salary Level",
+     "valueId": "80ae06a1-4738-48e8-8aea-4613f58ecd57",
+     "valueLabel": "Others"
+    },
+    {
+     "fieldId": "69ca83a2489188782a1e9f87",
+     "fieldLabel": "Direct Or Indirect",
+     "valueId": "1aefbf4c-c10a-422e-a975-a504a7117792",
+     "valueLabel": "Indirect"
+    },
+    {
+     "fieldId": "5abe29f9b60a5e486a2d9b1c",
+     "fieldLabel": "Working hours",
+     "valueId": "60756b3e-dbab-4353-ac3a-0064d2bb27d8",
+     "valueLabel": "Full-time"
+    },
+    {
+     "fieldId": "586a9995e4b0daa006ae1078",
+     "fieldLabel": "Legal Entity",
+     "valueId": "09a12231-6c9c-4061-a114-3ac523872781",
+     "valueLabel": "Robert Bosch GmbH"
+    },
+    {
+     "fieldId": "691cf1c93001c782b9560ab7",
+     "fieldLabel": "Division full name",
+     "valueId": "50d119ef-ad58-4d1a-89c7-1a430c530318",
+     "valueLabel": "Global Business Services"
+    },
+    {
+     "fieldId": "5abe27936d8bc56863dd9745",
+     "fieldLabel": "Position type",
+     "valueId": "f524b939-fe55-407b-a0b0-e8f4eec28997",
+     "valueLabel": "Intern"
+    },
+    {
+     "fieldId": "COUNTRY",
+     "fieldLabel": "Country/Region",
+     "valueId": "de",
+     "valueLabel": "Germany"
+    },
+    {
+     "fieldId": "586a971ee4b0daa006ae1077",
+     "fieldLabel": "Brands",
+     "valueId": "default",
+     "valueLabel": "Bosch Group"
+    },
+    {
+     "fieldId": "586a996ce4b05fd937b86097",
+     "fieldLabel": "Working Country",
+     "valueId": "34525254-83b2-42bc-9932-cf9f16db5281",
+     "valueLabel": "Germany"
+    },
+    {
+     "fieldId": "586a9b22e4b05fd937b8609a",
+     "fieldLabel": "Local Grade",
+     "valueId": "3830e7ee-7637-48d4-8c1a-45ff4d10910c",
+     "valueLabel": "Others"
+    },
+    {
+     "fieldId": "586a99a5e4b05fd937b86099",
+     "fieldLabel": "Division",
+     "valueId": "8171c158-8aa3-428f-9f75-07a18a9064f3",
+     "valueLabel": "GS"
+    },
+    {
+     "fieldId": "5aca31126d8bc56863dd98d9",
+     "fieldLabel": "Career Site Tags",
+     "valueLabel": "Werbung,Kreativ,Video,Event"
+    }
+   ],
+   "visibility": "PUBLIC",
+   "ref": "https://api.smartrecruiters.com/v1/companies/BoschGroup/postings/744000152399259",
+   "language": {
+    "code": "de",
+    "label": "German",
+    "labelNative": "Deutsch"
+   }
+  },
+  {
+   "id": "744000152398750",
+   "name": "APRENDIZ - SIA ABRASIVOS - SÃO JOSÉ DOS PINHAIS (35774)",
+   "uuid": "65544a4c-3f20-4906-ba6c-8b407e91c2c2",
+   "jobAdId": "a18178bc-e507-45c0-b26b-576845ccb0d6",
+   "defaultJobAd": true,
+   "refNumber": "REF297308P",
+   "company": {
+    "identifier": "BoschGroup",
+    "name": "Bosch Group"
+   },
+   "releasedDate": "2026-09-29T12:01:59.799Z",
+   "location": {
+    "city": "São José dos Pinhais",
+    "region": "PR",
+    "country": "br",
+    "address": "Rua Teodoro Franco de Oliveira",
+    "postalCode": "83065-190",
+    "remote": false,
+    "hybrid": false,
+    "latitude": "-25.5132522",
+    "longitude": "-49.1718411",
+    "fullLocation": "São José dos Pinhais, PR, Brazil"
+   },
+   "industry": {
+    "id": "chemicals",
+    "label": "Chemicals"
+   },
+   "department": {},
+   "function": {
+    "id": "other",
+    "label": "Other"
+   },
+   "typeOfEmployment": {
+    "id": "permanent",
+    "label": "Full-time"
+   },
+   "experienceLevel": {
+    "id": "not_applicable",
+    "label": "Not Applicable"
+   },
+   "customField": [
+    {
+     "fieldId": "5abe2a4ab60a5e486a2d9b1d",
+     "fieldLabel": "Contract type",
+     "valueId": "98487475-2a49-44f5-a615-408b525b3821",
+     "valueLabel": "Limited"
+    },
+    {
+     "fieldId": "5abe28e96d8bc56863dd9746",
+     "fieldLabel": "Tariff Area",
+     "valueId": "89e3308f-77ac-4db2-9957-49b221a76b0f",
+     "valueLabel": "Brazil Local Grades"
+    },
+    {
+     "fieldId": "586a997ee4b05fd937b86098",
+     "fieldLabel": "Legal Entity(acronym)",
+     "valueId": "8adcb306-e0ec-4495-965f-97ad717c3c61",
+     "valueLabel": "RBLA"
+    },
+    {
+     "fieldId": "586a99b5e4b0daa006ae1079",
+     "fieldLabel": "Working Location",
+     "valueId": "8ada1feb-8cea-4cb9-a48b-7d8d01d3fdac",
+     "valueLabel": "São José dos Pinhais"
+    },
+    {
+     "fieldId": "5abe295a6d8bc56863dd9747",
+     "fieldLabel": "Global Salary Level",
+     "valueId": "4319a4d2-6690-4a34-ac0f-9d8c126f1af2",
+     "valueLabel": "Junior/ Lower Tariff"
+    },
+    {
+     "fieldId": "69ca83a2489188782a1e9f87",
+     "fieldLabel": "Direct Or Indirect",
+     "valueId": "1aefbf4c-c10a-422e-a975-a504a7117792",
+     "valueLabel": "Indirect"
+    },
+    {
+     "fieldId": "5abe29f9b60a5e486a2d9b1c",
+     "fieldLabel": "Working hours",
+     "valueId": "36d67fff-2442-44b6-b51d-8070aeaca6e6",
+     "valueLabel": "Part-time"
+    },
+    {
+     "fieldId": "586a9995e4b0daa006ae1078",
+     "fieldLabel": "Legal Entity",
+     "valueId": "ac40ae51-3cf3-4683-9bdd-9e334dd485be",
+     "valueLabel": "Robert Bosch Ltda."
+    },
+    {
+     "fieldId": "691cf1c93001c782b9560ab7",
+     "fieldLabel": "Division full name",
+     "valueId": "d46bc602-375e-4c5b-8773-170f49339203",
+     "valueLabel": "Power Tools"
+    },
+    {
+     "fieldId": "5abe27936d8bc56863dd9745",
+     "fieldLabel": "Position type",
+     "valueId": "e1a146c4-6212-4f0d-b2f6-060dd801354f",
+     "valueLabel": "Blue-collar workers"
+    },
+    {
+     "fieldId": "COUNTRY",
+     "fieldLabel": "Country/Region",
+     "valueId": "br",
+     "valueLabel": "Brazil"
+    },
+    {
+     "fieldId": "586a971ee4b0daa006ae1077",
+     "fieldLabel": "Brands",
+     "valueId": "default",
+     "valueLabel": "Bosch Group"
+    },
+    {
+     "fieldId": "586a996ce4b05fd937b86097",
+     "fieldLabel": "Working Country",
+     "valueId": "38ffb1d7-cfdc-48e1-a641-1e66623f5afb",
+     "valueLabel": "Brazil"
+    },
+    {
+     "fieldId": "586a9b22e4b05fd937b8609a",
+     "fieldLabel": "Local Grade",
+     "valueId": "3cd12152-e84c-4711-adc5-fb84e4a109dd",
+     "valueLabel": "BR__HN"
+    },
+    {
+     "fieldId": "586a99a5e4b05fd937b86099",
+     "fieldLabel": "Division",
+     "valueId": "PT",
+     "valueLabel": "PT"
+    }
+   ],
+   "visibility": "PUBLIC",
+   "ref": "https://api.smartrecruiters.com/v1/companies/BoschGroup/postings/744000152398750",
+   "language": {
+    "code": "pt-BR",
+    "label": "Portuguese (Brazil)",
+    "labelNative": "português (Brasil)"
+   }
+  }
+ ]
+}

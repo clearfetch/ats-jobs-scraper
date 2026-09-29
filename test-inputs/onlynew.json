@@ -1,0 +1,6 @@
+{
+    "companies": ["huggingface.co"],
+    "onlyNew": true,
+    "stateStoreName": "ats-jobs-scraper-test-state",
+    "includeDescription": false
+}

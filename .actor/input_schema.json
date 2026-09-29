@@ -1,0 +1,140 @@
+{
+    "title": "ATS Jobs Scraper input",
+    "type": "object",
+    "schemaVersion": 1,
+    "properties": {
+        "companies": {
+            "title": "Companies",
+            "type": "array",
+            "editor": "stringList",
+            "description": "One per line. Any of: a job board link (boards.greenhouse.io/figma, jobs.lever.co/palantir, jobs.ashbyhq.com/ramp, nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite, apply.workable.com/..., careers.smartrecruiters.com/..., *.recruitee.com, *.jobs.personio.de), a company's careers page or plain domain (the board is found on the page), or an \"ats:slug\" pair such as greenhouse:airbnb. Also accepts \"urls\", \"startUrls\" and \"domains\".",
+            "prefill": [
+                "https://jobs.lever.co/palantir",
+                "https://job-boards.greenhouse.io/figma",
+                "https://jobs.ashbyhq.com/ramp",
+                "huggingface.co"
+            ]
+        },
+        "titleKeywords": {
+            "title": "Title contains any of",
+            "type": "array",
+            "editor": "stringList",
+            "sectionCaption": "Filters",
+            "description": "Keep jobs whose title contains any of these words (case-insensitive), e.g. engineer, designer. Empty keeps all. On Workday boards these are also searched on Workday's side, which is much faster on large boards.",
+            "default": []
+        },
+        "excludeTitleKeywords": {
+            "title": "Title contains none of",
+            "type": "array",
+            "editor": "stringList",
+            "description": "Leave out jobs whose title contains any of these words, e.g. intern, senior.",
+            "default": []
+        },
+        "locationKeywords": {
+            "title": "Location contains any of",
+            "type": "array",
+            "editor": "stringList",
+            "description": "Keep jobs whose location, country or workplace type contains any of these, e.g. Berlin, Germany, remote. Empty keeps all.",
+            "default": []
+        },
+        "remoteOnly": {
+            "title": "Remote jobs only",
+            "type": "boolean",
+            "description": "Keep only jobs the board marks as remote, or whose location says remote.",
+            "default": false
+        },
+        "postedWithinDays": {
+            "title": "Posted within the last N days",
+            "type": "integer",
+            "minimum": 0,
+            "description": "Keep jobs published in the last N days. 0 keeps all. Jobs whose board gives no date are left out when this is set.",
+            "default": 0
+        },
+        "onlyNew": {
+            "title": "Only jobs not seen in earlier runs",
+            "type": "boolean",
+            "sectionCaption": "Monitoring",
+            "description": "For scheduled runs: write only jobs this Actor has not written before for the same board, so each run returns just the new postings. The first run returns everything. Seen jobs are kept in a named key-value store in your account.",
+            "default": false
+        },
+        "stateStoreName": {
+            "title": "State store name",
+            "type": "string",
+            "editor": "textfield",
+            "description": "The key-value store that remembers seen jobs for onlyNew. Use a different name per schedule if two schedules watch the same boards with different filters.",
+            "default": "ats-jobs-scraper-state"
+        },
+        "maxJobsPerCompany": {
+            "title": "Max jobs per company",
+            "type": "integer",
+            "minimum": 0,
+            "sectionCaption": "Limits and output",
+            "description": "Stop after this many jobs from one board (after filters). 0 means all.",
+            "default": 0,
+            "prefill": 10
+        },
+        "maxItems": {
+            "title": "Max jobs in total",
+            "type": "integer",
+            "minimum": 0,
+            "description": "Stop the run after this many jobs. 0 means no limit. You can also cap the run's cost in the run options.",
+            "default": 0
+        },
+        "includeDescription": {
+            "title": "Include description text",
+            "type": "boolean",
+            "description": "Adds the job description as plain text. On SmartRecruiters this reads each job's own record.",
+            "default": true
+        },
+        "includeDescriptionHtml": {
+            "title": "Include description HTML",
+            "type": "boolean",
+            "description": "Adds the job description as HTML as well.",
+            "default": false
+        },
+        "workdayDetails": {
+            "title": "Read each Workday job",
+            "type": "boolean",
+            "description": "Workday lists give only the title and \"Posted 3 Days Ago\". On, each job's record is read for its exact date, all locations and description. Off is faster but those fields stay approximate or empty, and location filters cannot be applied to multi-location jobs.",
+            "default": true
+        },
+        "guessBoards": {
+            "title": "Guess the board from the domain",
+            "type": "boolean",
+            "description": "When a company site links to no board, try the domain name as a board id on Greenhouse, Lever, Ashby, Workable and Recruitee, and keep a match only if the board's company name fits. Rows found this way have detectedBy slug-guess.",
+            "default": true
+        },
+        "includeRaw": {
+            "title": "Include raw board data",
+            "type": "boolean",
+            "description": "Adds each board's own record for the job under raw, for fields this Actor does not map.",
+            "default": false
+        },
+        "maxConcurrency": {
+            "title": "Max concurrency",
+            "type": "integer",
+            "minimum": 1,
+            "maximum": 50,
+            "sectionCaption": "Advanced",
+            "description": "How many boards are read at the same time.",
+            "default": 10
+        },
+        "timeoutSecs": {
+            "title": "Request timeout (seconds)",
+            "type": "integer",
+            "minimum": 5,
+            "maximum": 120,
+            "description": "Per request.",
+            "default": 30
+        },
+        "proxyConfiguration": {
+            "title": "Proxy",
+            "type": "object",
+            "editor": "proxy",
+            "description": "Not needed: these are public job board APIs. Available if you want your own IPs.",
+            "default": {
+                "useApifyProxy": false
+            }
+        }
+    }
+}

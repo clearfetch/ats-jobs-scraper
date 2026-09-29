@@ -1,0 +1,4 @@
+{
+    "companies": ["https://bunq.recruitee.com", "https://careers.smartrecruiters.com/BoschGroup", "personio:personio", "greenhouse:figma"],
+    "maxJobsPerCompany": 4
+}

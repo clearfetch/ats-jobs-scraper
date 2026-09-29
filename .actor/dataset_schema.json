@@ -1,0 +1,416 @@
+{
+    "actorSpecification": 1,
+    "fields": {
+        "type": "object",
+        "properties": {
+            "ok": {
+                "type": "boolean",
+                "title": "OK",
+                "description": "False rows are inputs or boards that could not be read, with the reason in error. They are not charged."
+            },
+            "ats": {
+                "type": [
+                    "string",
+                    "null"
+                ],
+                "title": "Job board",
+                "description": "greenhouse, lever, ashby, workable, recruitee, smartrecruiters, personio or workday."
+            },
+            "company": {
+                "type": [
+                    "string",
+                    "null"
+                ],
+                "title": "Company",
+                "description": "The company's name as its job board or careers site gives it."
+            },
+            "boardSlug": {
+                "type": [
+                    "string",
+                    "null"
+                ],
+                "title": "Board",
+                "description": "The board's id on its platform (for Workday, host/site)."
+            },
+            "jobId": {
+                "type": [
+                    "string",
+                    "null"
+                ],
+                "title": "Job id",
+                "description": "The job's id on its board. Stable across runs, so it works as a key."
+            },
+            "title": {
+                "type": [
+                    "string",
+                    "null"
+                ],
+                "title": "Title",
+                "description": "Job title."
+            },
+            "url": {
+                "type": [
+                    "string",
+                    "null"
+                ],
+                "title": "Job page",
+                "description": "The public posting."
+            },
+            "applyUrl": {
+                "type": [
+                    "string",
+                    "null"
+                ],
+                "title": "Apply link",
+                "description": "Where candidates apply, when the board has a separate link."
+            },
+            "location": {
+                "type": [
+                    "string",
+                    "null"
+                ],
+                "title": "Location",
+                "description": "Primary location as the board states it."
+            },
+            "locations": {
+                "type": "array",
+                "title": "All locations",
+                "description": "Every location the posting lists.",
+                "items": {
+                    "type": "string"
+                }
+            },
+            "country": {
+                "type": [
+                    "string",
+                    "null"
+                ],
+                "title": "Country",
+                "description": "Country, when the board states it (name or ISO code, as the board gives it)."
+            },
+            "remote": {
+                "type": [
+                    "boolean",
+                    "null"
+                ],
+                "title": "Remote",
+                "description": "True for remote jobs, false for on-site or hybrid, null when the board does not say."
+            },
+            "workplaceType": {
+                "type": [
+                    "string",
+                    "null"
+                ],
+                "title": "Workplace",
+                "description": "remote, hybrid or onsite; null when the board does not say."
+            },
+            "employmentType": {
+                "type": [
+                    "string",
+                    "null"
+                ],
+                "title": "Employment type",
+                "description": "full-time, part-time, contract, internship or temporary; otherwise the board's own wording."
+            },
+            "department": {
+                "type": [
+                    "string",
+                    "null"
+                ],
+                "title": "Department",
+                "description": "Department or function."
+            },
+            "team": {
+                "type": [
+                    "string",
+                    "null"
+                ],
+                "title": "Team",
+                "description": "Team, on boards that have one."
+            },
+            "postedAt": {
+                "type": [
+                    "string",
+                    "null"
+                ],
+                "title": "Posted",
+                "description": "When the job was published (ISO 8601)."
+            },
+            "postedAtApproximate": {
+                "type": "boolean",
+                "title": "Posted date approximate",
+                "description": "True when the date comes from Workday's \"Posted 3 Days Ago\" text rather than an exact date."
+            },
+            "updatedAt": {
+                "type": [
+                    "string",
+                    "null"
+                ],
+                "title": "Updated",
+                "description": "When the posting was last changed (ISO 8601), on boards that report it."
+            },
+            "salaryMin": {
+                "type": [
+                    "number",
+                    "null"
+                ],
+                "title": "Salary from",
+                "description": "Lower end of the pay range."
+            },
+            "salaryMax": {
+                "type": [
+                    "number",
+                    "null"
+                ],
+                "title": "Salary to",
+                "description": "Upper end of the pay range."
+            },
+            "salaryCurrency": {
+                "type": [
+                    "string",
+                    "null"
+                ],
+                "title": "Currency",
+                "description": "ISO currency code."
+            },
+            "salaryPeriod": {
+                "type": [
+                    "string",
+                    "null"
+                ],
+                "title": "Pay period",
+                "description": "year, month, week, day or hour."
+            },
+            "salaryText": {
+                "type": [
+                    "string",
+                    "null"
+                ],
+                "title": "Salary text",
+                "description": "The range as the posting words it."
+            },
+            "salarySource": {
+                "type": [
+                    "string",
+                    "null"
+                ],
+                "title": "Salary source",
+                "description": "ats when the board publishes pay as data, description when it was read from the job text."
+            },
+            "description": {
+                "type": [
+                    "string",
+                    "null"
+                ],
+                "title": "Description",
+                "description": "The job description as plain text. Off with includeDescription: false."
+            },
+            "descriptionHtml": {
+                "type": [
+                    "string",
+                    "null"
+                ],
+                "title": "Description HTML",
+                "description": "The job description as HTML, with includeDescriptionHtml: true."
+            },
+            "detailError": {
+                "type": [
+                    "string",
+                    "null"
+                ],
+                "title": "Detail error",
+                "description": "Set when the job's own record could not be read; the row then has the fields from the board's list only."
+            },
+            "isNew": {
+                "type": [
+                    "boolean",
+                    "null"
+                ],
+                "title": "New",
+                "description": "True in onlyNew mode (every row written is new); null otherwise."
+            },
+            "detectedBy": {
+                "type": [
+                    "string",
+                    "null"
+                ],
+                "title": "Found by",
+                "description": "url (a board link), explicit (an ats:slug pair), page (linked from the company's site) or slug-guess (the domain name matched a board)."
+            },
+            "inputUrl": {
+                "type": [
+                    "string",
+                    "null"
+                ],
+                "title": "Input",
+                "description": "The input entry that led to this row."
+            },
+            "error": {
+                "type": [
+                    "string",
+                    "null"
+                ],
+                "title": "Error",
+                "description": "Why this input or board could not be read."
+            },
+            "scrapedAt": {
+                "type": "string",
+                "title": "Scraped at",
+                "description": "ISO 8601."
+            },
+            "raw": {
+                "type": "object",
+                "title": "Raw",
+                "description": "The board's own record, untouched, with includeRaw: true."
+            }
+        }
+    },
+    "views": {
+        "overview": {
+            "title": "Jobs",
+            "transformation": {
+                "fields": [
+                    "company",
+                    "title",
+                    "location",
+                    "workplaceType",
+                    "employmentType",
+                    "salaryMin",
+                    "salaryMax",
+                    "salaryCurrency",
+                    "salaryPeriod",
+                    "postedAt",
+                    "url",
+                    "ats",
+                    "error"
+                ]
+            },
+            "display": {
+                "component": "table",
+                "properties": {
+                    "company": {
+                        "label": "Company"
+                    },
+                    "title": {
+                        "label": "Title"
+                    },
+                    "location": {
+                        "label": "Location"
+                    },
+                    "workplaceType": {
+                        "label": "Workplace"
+                    },
+                    "employmentType": {
+                        "label": "Employment type"
+                    },
+                    "salaryMin": {
+                        "label": "Salary from",
+                        "format": "number"
+                    },
+                    "salaryMax": {
+                        "label": "Salary to",
+                        "format": "number"
+                    },
+                    "salaryCurrency": {
+                        "label": "Currency"
+                    },
+                    "salaryPeriod": {
+                        "label": "Pay period"
+                    },
+                    "postedAt": {
+                        "label": "Posted",
+                        "format": "date"
+                    },
+                    "url": {
+                        "label": "Job page",
+                        "format": "link"
+                    },
+                    "ats": {
+                        "label": "Job board"
+                    },
+                    "error": {
+                        "label": "Error"
+                    }
+                }
+            }
+        },
+        "details": {
+            "title": "Jobs with descriptions",
+            "transformation": {
+                "fields": [
+                    "company",
+                    "title",
+                    "url",
+                    "applyUrl",
+                    "location",
+                    "country",
+                    "remote",
+                    "department",
+                    "team",
+                    "postedAt",
+                    "description",
+                    "salaryText",
+                    "jobId",
+                    "isNew",
+                    "inputUrl",
+                    "detectedBy"
+                ]
+            },
+            "display": {
+                "component": "table",
+                "properties": {
+                    "company": {
+                        "label": "Company"
+                    },
+                    "title": {
+                        "label": "Title"
+                    },
+                    "url": {
+                        "label": "Job page",
+                        "format": "link"
+                    },
+                    "applyUrl": {
+                        "label": "Apply link"
+                    },
+                    "location": {
+                        "label": "Location"
+                    },
+                    "country": {
+                        "label": "Country"
+                    },
+                    "remote": {
+                        "label": "Remote"
+                    },
+                    "department": {
+                        "label": "Department"
+                    },
+                    "team": {
+                        "label": "Team"
+                    },
+                    "postedAt": {
+                        "label": "Posted",
+                        "format": "date"
+                    },
+                    "description": {
+                        "label": "Description"
+                    },
+                    "salaryText": {
+                        "label": "Salary text"
+                    },
+                    "jobId": {
+                        "label": "Job id"
+                    },
+                    "isNew": {
+                        "label": "New"
+                    },
+                    "inputUrl": {
+                        "label": "Input"
+                    },
+                    "detectedBy": {
+                        "label": "Found by"
+                    }
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,9 @@
+{
+    "companies": ["greenhouse:gitlab", "https://jobs.ashbyhq.com/ramp", "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite"],
+    "titleKeywords": ["engineer"],
+    "excludeTitleKeywords": ["intern", "manager"],
+    "locationKeywords": ["united states", "remote", "US, CA", "new york"],
+    "postedWithinDays": 30,
+    "maxJobsPerCompany": 6,
+    "includeDescription": false
+}

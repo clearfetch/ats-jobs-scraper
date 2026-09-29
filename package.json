@@ -1,0 +1,14 @@
+{
+    "name": "ats-jobs-scraper",
+    "version": "1.0.0",
+    "type": "module",
+    "description": "Scrape job listings from company career sites on Greenhouse, Lever, Ashby, Workday, Workable, SmartRecruiters, Recruitee and Personio: one flat schema with salary, remote flag and post date.",
+    "engines": { "node": ">=20.0.0" },
+    "dependencies": {
+        "apify": "^3.7.0",
+        "cheerio": "^1.0.0",
+        "got-scraping": "^4.0.0"
+    },
+    "scripts": { "start": "node ./src/main.js", "test": "node ./test/ats.test.mjs" },
+    "license": "MIT"
+}

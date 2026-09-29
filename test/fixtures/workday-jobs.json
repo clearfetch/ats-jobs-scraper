@@ -1,0 +1,34 @@
+{
+ "total": 2000,
+ "jobPostings": [
+  {
+   "title": "Senior Chip Design Verification Engineer",
+   "externalPath": "/job/Israel-Beer-Sheva/Senior-Chip-Design-Verification-Engineer_JR2015057",
+   "locationsText": "2 Locations",
+   "postedOn": "Posted Today",
+   "bulletFields": [
+    "JR2015057"
+   ]
+  },
+  {
+   "title": "Chip Power Estimation Engineer",
+   "externalPath": "/job/India-Bengaluru/Chip-Power-Estimation-Engineer_JR2026671",
+   "locationsText": "India, Bengaluru",
+   "postedOn": "Posted Today",
+   "bulletFields": [
+    "JR2026671"
+   ]
+  },
+  {
+   "title": "Senior Manager, Silicon Speed Productization — Silicon Co-Design Group",
+   "externalPath": "/job/US-CA-Santa-Clara/Senior-Manager--Silicon-Speed-Productization---Silicon-Co-Design-Group_JR2026496",
+   "locationsText": "US, CA, Santa Clara",
+   "postedOn": "Posted Today",
+   "bulletFields": [
+    "JR2026496"
+   ]
+  }
+ ],
+ "facets": [],
+ "userAuthenticated": false
+}

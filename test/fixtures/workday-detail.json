@@ -1,0 +1,38 @@
+{
+ "jobPostingInfo": {
+  "id": "7b14e71e0f14103234ceb4be23620000",
+  "title": "Senior Chip Design Verification Engineer",
+  "jobDescription": "<p>NVIDIA is looking for best-in-class Chip Design Engineers to join our outstanding Networking Silicon engineering team, developing the industry&#39;s best high speed communication devices, delivering the highest throughput and lowest latency! Come and take a significant part in designing our groundbreaking and <span>innovative chips</span>, enjoy working in a meaningful, growing and highly professional environment where you make a huge impact in a technology-focused company.</p><p></p><p><b>What you will be doing:</b></p><ul><li><p>Join the Tel Aviv or Beer-Sheva group, working on RiscV processors platform.</p></li><li><p>Verification for chip blocks according to specifications under challenging constraints and with high orientation to power, area and performance.</p></li><li><p>Daily work might involve any or all aspects of chip development including verification, integration, debug…</p></li><li><p>Work closely with firmware and other groups around the globe.</p></li></ul><p></p><p><b>What we need to see:</b></p><ul><li><p>B.SC./M.SC. or equivalent experience in Electrical Engineering/Communication Engineering/Computer Engineering</p></li><li><p>5&#43; years of <span>proven experience</span> in RTL Frontend ASIC Verification (Chip Design)</p></li><li><p>High Level of English</p></li></ul><p></p><p><b>Ways to stand out from the crowd:</b></p><ul><li><p>Extensive experience in RTL Frontend ASIC Verification (Chip Design)</p></li><li><p>Strong experience and knowledge in Spec",
+  "location": "Israel, Beer Sheva",
+  "additionalLocations": [
+   "Israel, Tel Aviv"
+  ],
+  "postedOn": "Posted Today",
+  "startDate": "2026-09-29",
+  "timeType": "Full time",
+  "jobReqId": "JR2015057",
+  "jobPostingId": "Senior-Chip-Design-Verification-Engineer_JR2015057",
+  "jobPostingSiteId": "NVIDIAExternalCareerSite",
+  "country": {
+   "descriptor": "Israel",
+   "id": "084562884af243748dad7c84c304d89a"
+  },
+  "canApply": true,
+  "posted": true,
+  "includeResumeParsing": true,
+  "jobRequisitionLocation": {
+   "descriptor": "Israel, Beer Sheva",
+   "country": {
+    "descriptor": "Israel",
+    "id": "084562884af243748dad7c84c304d89a",
+    "alpha2Code": "IL"
+   }
+  },
+  "externalUrl": "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/Israel-Beer-Sheva/Senior-Chip-Design-Verification-Engineer_JR2015057"
+ },
+ "hiringOrganization": {
+  "name": "IL00 Mellanox Technologies, Ltd.",
+  "url": ""
+ },
+ "userAuthenticated": false
+}

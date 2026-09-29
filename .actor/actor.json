@@ -1,0 +1,17 @@
+{
+    "actorSpecification": 1,
+    "name": "ats-jobs-scraper",
+    "title": "ATS Jobs Scraper - Greenhouse, Lever, Ashby, Workday & More",
+    "description": "Every open job from company career sites on Greenhouse, Lever, Ashby, Workday, Workable, SmartRecruiters, Recruitee and Personio. Paste a careers page, domain or board link. One schema with salary, remote flag and post date; filters; new-jobs-only mode. No login or proxy.",
+    "version": "1.0",
+    "buildTag": "latest",
+    "minMemoryMbytes": 256,
+    "maxMemoryMbytes": 1024,
+    "input": "./input_schema.json",
+    "output": "./output_schema.json",
+    "dockerfile": "../Dockerfile",
+    "readme": "../README.md",
+    "storages": {
+        "dataset": "./dataset_schema.json"
+    }
+}

@@ -1,0 +1,20 @@
+{
+    "urls": [
+        "not a url at all",
+        "ftp://stripe.com",
+        "workday:nvidia",
+        "greenhouse:zzqqxxnotreal9137",
+        "lever:zzqqxxnotreal9137",
+        "https://jobs.ashbyhq.com/zzqqxxnotreal9137",
+        "https://apply.workable.com/zzqqxxnotreal9137",
+        "https://zzqqxxnotreal9137.recruitee.com",
+        "smartrecruiters:zzqqxxnotreal9137",
+        "personio:zzqqxxnotreal9137",
+        "https://nvidia.wd5.myworkdayjobs.com/zzqqxxNotARealSite",
+        "example.com",
+        "https://zzqqxxnotreal9137-nonexistent-domain.com",
+        "https://jobs.lever.co/palantir",
+        "https://jobs.lever.co/palantir/ac978161-6f46-4f6b-ad9e-a258e642751c"
+    ],
+    "maxJobsPerCompany": 1
+}

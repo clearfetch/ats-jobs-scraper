@@ -1,0 +1,10 @@
+{
+    "companies": [
+        "https://jobs.lever.co/palantir",
+        "https://job-boards.greenhouse.io/stripe",
+        "https://jobs.ashbyhq.com/ramp",
+        "huggingface.co",
+        "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite"
+    ],
+    "maxJobsPerCompany": 5
+}

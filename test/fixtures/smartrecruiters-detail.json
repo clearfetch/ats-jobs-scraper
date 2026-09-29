@@ -1,0 +1,191 @@
+{
+ "id": "744000152399259",
+ "name": "Pflichtpraktikum in Social Media",
+ "uuid": "8390efda-0045-4ecd-93a5-b948edd00c11",
+ "jobId": "e99ddcb0-ae5a-428a-9292-553bfb372473",
+ "jobAdId": "a4d95cd4-c061-4b8c-8da8-548f2fd95f89",
+ "defaultJobAd": true,
+ "refNumber": "REF297302D",
+ "company": {
+  "name": "Bosch Group",
+  "identifier": "BoschGroup"
+ },
+ "location": {
+  "city": "Gerlingen",
+  "region": "BW",
+  "country": "de",
+  "address": "Dieselstraße 3",
+  "postalCode": "70839",
+  "remote": false,
+  "hybrid": false,
+  "latitude": "48.8029138",
+  "longitude": "9.074808299999999",
+  "fullLocation": "Gerlingen, BW, Germany"
+ },
+ "customField": [
+  {
+   "fieldId": "5abe2a4ab60a5e486a2d9b1d",
+   "fieldLabel": "Contract type",
+   "valueId": "98487475-2a49-44f5-a615-408b525b3821",
+   "valueLabel": "Limited"
+  },
+  {
+   "fieldId": "5abe28e96d8bc56863dd9746",
+   "fieldLabel": "Tariff Area",
+   "valueId": "45a4fe7c-ec96-4eda-907f-4aa0356a7704",
+   "valueLabel": "Not tariff-bound / non-tariff / SLx"
+  },
+  {
+   "fieldId": "5aca30e46d8bc56863dd98d8",
+   "fieldLabel": "Tags",
+   "valueId": "f8aadd7e-9952-41c5-af48-02debb3e9010",
+   "valueLabel": "Please enter Career Site Tags"
+  },
+  {
+   "fieldId": "5aca31126d8bc56863dd98d9",
+   "fieldLabel": "Career Site Tags",
+   "valueLabel": "Werbung,Kreativ,Video,Event"
+  },
+  {
+   "fieldId": "586a997ee4b05fd937b86098",
+   "fieldLabel": "Legal Entity(acronym)",
+   "valueId": "de1f1b31-787f-43b1-88fd-4eb5428a9db8",
+   "valueLabel": "RB"
+  },
+  {
+   "fieldId": "6463ee88f4ba4e3063baf201",
+   "fieldLabel": "Do you want to publish on StepStone?",
+   "valueId": "5449f11a-cf85-46db-80b7-8540bb088d65",
+   "valueLabel": "No"
+  },
+  {
+   "fieldId": "586a99b5e4b0daa006ae1079",
+   "fieldLabel": "Working Location",
+   "valueId": "4c5e0a8e-1aca-4707-b641-a0641306e9a3",
+   "valueLabel": "Gerlingen - Schillerhöhe"
+  },
+  {
+   "fieldId": "5abe295a6d8bc56863dd9747",
+   "fieldLabel": "Global Salary Level",
+   "valueId": "80ae06a1-4738-48e8-8aea-4613f58ecd57",
+   "valueLabel": "Others"
+  },
+  {
+   "fieldId": "69ca83a2489188782a1e9f87",
+   "fieldLabel": "Direct Or Indirect",
+   "valueId": "1aefbf4c-c10a-422e-a975-a504a7117792",
+   "valueLabel": "Indirect"
+  },
+  {
+   "fieldId": "5abe29f9b60a5e486a2d9b1c",
+   "fieldLabel": "Working hours",
+   "valueId": "60756b3e-dbab-4353-ac3a-0064d2bb27d8",
+   "valueLabel": "Full-time"
+  },
+  {
+   "fieldId": "586a9995e4b0daa006ae1078",
+   "fieldLabel": "Legal Entity",
+   "valueId": "09a12231-6c9c-4061-a114-3ac523872781",
+   "valueLabel": "Robert Bosch GmbH"
+  },
+  {
+   "fieldId": "691cf1c93001c782b9560ab7",
+   "fieldLabel": "Division full name",
+   "valueId": "50d119ef-ad58-4d1a-89c7-1a430c530318",
+   "valueLabel": "Global Business Services"
+  },
+  {
+   "fieldId": "5abe27936d8bc56863dd9745",
+   "fieldLabel": "Position type",
+   "valueId": "f524b939-fe55-407b-a0b0-e8f4eec28997",
+   "valueLabel": "Intern"
+  },
+  {
+   "fieldId": "COUNTRY",
+   "fieldLabel": "Country/Region",
+   "valueId": "de",
+   "valueLabel": "Germany"
+  },
+  {
+   "fieldId": "586a971ee4b0daa006ae1077",
+   "fieldLabel": "Brands",
+   "valueId": "default",
+   "valueLabel": "Bosch Group"
+  },
+  {
+   "fieldId": "586a996ce4b05fd937b86097",
+   "fieldLabel": "Working Country",
+   "valueId": "34525254-83b2-42bc-9932-cf9f16db5281",
+   "valueLabel": "Germany"
+  },
+  {
+   "fieldId": "586a9b22e4b05fd937b8609a",
+   "fieldLabel": "Local Grade",
+   "valueId": "3830e7ee-7637-48d4-8c1a-45ff4d10910c",
+   "valueLabel": "Others"
+  },
+  {
+   "fieldId": "586a99a5e4b05fd937b86099",
+   "fieldLabel": "Division",
+   "valueId": "8171c158-8aa3-428f-9f75-07a18a9064f3",
+   "valueLabel": "GS"
+  }
+ ],
+ "releasedDate": "2026-09-29T12:02:34.065Z",
+ "creator": {
+  "name": "",
+  "avatarUrl": ""
+ },
+ "postingUrl": "https://jobs.smartrecruiters.com/BoschGroup/744000152399259-pflichtpraktikum-in-social-media",
+ "applyUrl": "https://jobs.smartrecruiters.com/BoschGroup/744000152399259-pflichtpraktikum-in-social-media?oga=true",
+ "referralUrl": "https://jobs.smartrecruiters.com/external-referrals/company/BoschGroup/publication/8390efda-0045-4ecd-93a5-b948edd00c11?dcr_ci=BoschGroup",
+ "jobAd": {
+  "sections": {
+   "companyDescription": {
+    "title": "Unternehmensbeschreibung",
+    "text": "<p><strong>Mit weltweit über 12 000 Mitarbeitenden verfolgen wir bei Bosch Global Business Services ein gemeinsames Ziel: die Bereitstellung erstklassiger Dienstleistungen, die einen echten Mehrwert für Bosch schaffen.</strong></p><p><strong>Fortschrittliche Technologie und weltweite Zusammenarbeit sind unsere Treiber, durch die wir jeden Tag einen Unterschied machen. Durch unser einzigartiges Set-up bündeln wir alle kaufmännischen Prozesse unter einem Dach. Das ermöglicht Ihnen, in die spannende Welt von Bosch einzutauchen.</strong></p><p><strong>Ihre Arbeit trägt maßgeblich zur Wettbewerbsfähigkeit von Bosch bei und gibt unseren Geschäftsbereichen den nötigen Freiraum, Technik fürs Leben zu entwickeln.</strong></p><p>Die Robert Bosch GmbH freut sich auf deine Bewerbung!</p>"
+   },
+   "jobDescription": {
+    "title": "Stellenbeschreibung",
+    "text": "<ul><li>Während deines Praktikums konzipierst und steuerst du unsere internen und externen Social Media Kanäle, insbesondere Instagram, um unsere Botschaften zielgruppengerecht zu verbreiten.</li><li>Die Kommunikationsstrategie und die Inhalte planst sowie managst du eigenverantwortlich, wobei du stets den Puls der Zeit im Blick behältst.</li><li>Des Weiteren erstellst und pflegst du ansprechenden Content, der unsere Zielgruppen begeistert und unsere Markenidentität stärkt.</li><li>Für unsere Kanäle konzipierst und realisierst du hochwertige Foto- und Videoaufnahmen, die unsere Geschichten visuell erzählen.</li><li>Nicht zuletzt misst du den Erfolg deiner Maßnahmen anhand relevanter KPIs und verfolgst konsequent die gesetzten Ziele, um unsere Strategie kontinuierlich zu optimieren.</li></u"
+   },
+   "qualifications": {
+    "title": "Qualifikationen",
+    "text": "<ul><li><strong>Ausbildung: </strong>Studium im Bereich Marketing, Kommunikationswissenschaften, Medienmanagement oder vergleichbar</li><li><strong>Erfahrungen und Know-how:&#xa0;</strong>sicherer Umgang mit MS-Office und Adobe Creative Cloud-Programmen</li><li><strong>Persönlichkeit und Arbeitsweise:</strong> dir gelingt es, komplexe Botschaften klar und ansprechend zu vermitteln; du bringst deine kreativen Ideen ein und setzt sie engagiert um; du arbeitest gerne und konstruktiv im Team, um gemeinsame Ziele zu erreichen</li><li><strong>Arbeitsalltag:</strong> Anwesenheit im Büro erforderlich</li><li><strong>Begeisterung:</strong> du entwickelst gerne neue Konzepte und setzt deine eigenen Ideen mit Leidenschaft um, um unsere digitale Präsenz zu gestalten</li><li><strong>Sprachen: </strong>"
+   },
+   "additionalInformation": {
+    "title": "Zusätzliche Informationen",
+    "text": "<p><strong>Beginn:</strong> nach Absprache<br>\n<strong>Dauer:</strong> 3 - 6 Monate&#xa0;(ausschließlich Pflichtpraktikum gem. SPO möglich)</p><p>Voraussetzung für das Praktikum ist die Immatrikulation an einer Hochschule. Bitte füge deiner Bewerbung deinen Lebenslauf, deinen aktuellen Notenspiegel, eine aktuelle Immatrikulationsbescheinigung, deine Prüfungsordnung sowie ggf. eine gültige Arbeits- und Aufenthaltserlaubnis bei.</p><p>Vielfalt und Inklusion sind für uns keine Trends, sondern fest verankert in unserer Unternehmenskultur. Daher freuen wir uns über alle Bewerbungen: unabhängig von Geschlecht, Alter, Behinderung, Religion, ethnischer Herkunft oder sexueller Identität.</p><p><strong>Du hast fachliche Fragen zum Job?</strong><br>\nVolker Scheuermann (Fachabteilung)<br>\n+49 711 811 "
+   },
+   "videos": {
+    "title": "Videos To Watch",
+    "urls": [
+     "https://youtu.be/Kby1IxGjaKc"
+    ]
+   }
+  }
+ },
+ "active": true,
+ "visibility": "PUBLIC",
+ "industry": {
+  "id": "automotive",
+  "label": "Automotive"
+ },
+ "function": {
+  "id": "marketing",
+  "label": "Marketing"
+ },
+ "experienceLevel": {
+  "id": "internship",
+  "label": "Internship"
+ },
+ "typeOfEmployment": {
+  "id": "permanent",
+  "label": "Full-time"
+ },
+ "language": {
+  "code": "de",
+  "label": "German",
+  "labelNative": "Deutsch"
+ }
+}

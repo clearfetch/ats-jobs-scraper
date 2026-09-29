@@ -1,0 +1,19 @@
+{
+    "actorOutputSchemaVersion": 1,
+    "title": "ATS Jobs Scraper output",
+    "description": "One dataset item per job, plus a SUMMARY record with per-company counts.",
+    "properties": {
+        "results": {
+            "type": "string",
+            "title": "Jobs",
+            "description": "One row per job: company, title, links, locations, remote flag, employment type, department, posted date, salary range and description. Inputs or boards that could not be read appear with ok=false and a reason, and are not charged.",
+            "template": "{{links.apiDefaultDatasetUrl}}/items"
+        },
+        "summary": {
+            "type": "string",
+            "title": "Per-company summary",
+            "description": "For each board: how it was found, jobs on the board, jobs that passed the filters and jobs written.",
+            "template": "{{links.apiDefaultKeyValueStoreUrl}}/records/SUMMARY"
+        }
+    }
+}
