@@ -1,7 +1,5 @@
 # ATS Jobs Scraper - Greenhouse, Lever, Ashby, Workday & More
 
-**Run it on Apify: [apify.com/clearfetch/ats-jobs-scraper](https://apify.com/clearfetch/ats-jobs-scraper)**
-
 Get every open job from company career sites, straight from the applicant tracking system behind them:
 Greenhouse, Lever, Ashby, Workday, Workable, SmartRecruiters, Recruitee and Personio. Paste a careers page, a
 plain company domain or a job board link, and the Actor finds the board, reads it through the board's public API
@@ -117,6 +115,10 @@ Those rows are free.
   `onlyNew`, jobs already seen in earlier runs are never charged.
 - Set a maximum cost on the run and it stops cleanly when it gets there.
 
+Paid Apify plans pay less: 10% off on Bronze, 20% on Silver and 30% on Gold and higher tiers.
+
+Apify also charges a run-start fee of $0.00005 per started GB of allocated memory (minimum one event), including runs that produce no chargeable results.
+
 ## Use cases
 
 - **Sales prospecting on hiring signals**: which target accounts are hiring for the role your product serves,
@@ -161,6 +163,12 @@ boards provide for that. You are responsible for how you use the data.
 Run it from the Apify API or a client library, schedule it in Apify Console, or connect it to n8n, Make,
 Zapier or any MCP client through Apify's integrations. Results are available as JSON, CSV, Excel and through
 the dataset API.
+
+## More tools from clearfetch
+
+- [Website Contact Extractor](https://apify.com/clearfetch/website-contact-extractor): emails, phone numbers and social profiles from company websites
+- [Tech Stack Detector](https://apify.com/clearfetch/tech-stack-detector): the CMS, frameworks, analytics and hosting behind any website
+- [Google Trends Scraper](https://apify.com/clearfetch/google-trends-scraper): interest over time, by region and related queries, plus today's trending searches
 
 ## Changelog
 
